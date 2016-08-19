@@ -1,4 +1,3 @@
-import uuid
 from datetime import datetime
 
 map_ ={
@@ -31,10 +30,10 @@ class Student(object):
 
 	#Print students who attended on a specific date
 
-	def student_attendance(self, date=datetime.today().date()):
-		for item in Student.attended:
-			if item['date'] == date:
-				print item
+def student_attendance(date=datetime.today().date()):
+	for item in Student.attended:
+		if item['date'] == date:
+			print item
 
 		
 

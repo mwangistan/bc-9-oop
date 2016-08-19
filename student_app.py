@@ -1,3 +1,4 @@
+import student
 from student import Student
 
 #create atleast 10 students
@@ -23,7 +24,7 @@ s5.attend_class(date='2016, 8, 18', id= s5.id, first_name=s5.fname, last_name=s5
  students who attend class on a particular 
  day'''
 
-print(s1.student_attendance(date = '2016, 8, 18'))
+print(student.student_attendance(date = '2016, 8, 18'))
 
 
 
